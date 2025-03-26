@@ -121,6 +121,9 @@
         <q-item to="/EquipoColaboradores">
           <q-item-section>Equipo - Colaboradores</q-item-section>
         </q-item>
+        <q-item to="/SeminarioIAyPS">
+          <q-item-section>Seminario IAy PS</q-item-section>
+        </q-item>
         <q-item>
           <q-item-section>Contacto</q-item-section>
         </q-item>
