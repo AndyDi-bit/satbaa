@@ -3,7 +3,7 @@
     <!-- encabezado2 -->
 
     <div class="row bg-primary col q-pa-xl">
-      <q-img src="/src/img/Inicio_SitioWeb.png" style="height: 520px; width: 810px" />
+      <q-img src="/img/Inicio_SitioWeb.png" style="height: 520px; width: 810px" />
       <div class="col-6 q-mt-xl col-sm">
         <p class="text-bold text-h2" style="color: #61c2d7">SATBAA</p>
         <p class="text-bold text-h4" style="color: #61c2d7">
@@ -14,7 +14,7 @@
     <!-- Introducción -->
 
     <div class="row">
-      <q-img src="/src/img/fire.png" style="height: 540px; width: 770px" class="col" />
+      <q-img src="/img/fire.png" style="height: 540px; width: 770px" class="col" />
       <div class="col-6 q-pa-lg q-mt-xl q-ml-xl col-sm-6">
         <p>
           A lo largo de la historia de la humanidad han ocurrido diversos fenómenos, ya sean de
@@ -98,7 +98,7 @@
           class="col-4 col-sm-12 col-md-4 q-mt-md flex column items-center text-center bordes q-ma-sm"
         >
           <q-img
-            src="/src/img/APIEN-Light-Icon.png"
+            src="/img/APIEN-Light-Icon.png"
             style="height: 40px; width: 100px"
             class="col q-ma-sm"
           />
@@ -115,7 +115,7 @@
           class="col-4 col-sm-12 col-md-4 q-mt-md flex column items-center text-center bordes q-ma-sm"
         >
           <q-img
-            src="/src/img/SCC-Light-Icon.png"
+            src="/img/SCC-Light-Icon.png"
             style="height: 40px; width: 100px"
             class="col q-ma-sm"
           />
@@ -131,7 +131,7 @@
           class="col-4 col-sm-12 col-md-4 q-mt-md flex column items-center text-center bordes q-ma-sm"
         >
           <q-img
-            src="/src/img/SRP-Light-Icon.png"
+            src="/img/SRP-Light-Icon.png"
             style="height: 40px; width: 100px"
             class="col q-ma-sm"
           />
@@ -154,7 +154,7 @@
       <div class="row items-center justify-center">
         <div class="col-6 col-sm-12 col-md-4 q-mt-md flex column items-center text-center q-ma-sm">
           <q-card class="bg-primary" flat bordered style="max-width: 640px">
-            <q-img src="/src/img/grietas.png" style="height: 350px" />
+            <q-img src="/img/grietas.png" style="height: 350px" />
 
             <q-card-section style="flex-grow: 1; overflow-y: auto">
               <div class="text-h5 q-mt-sm q-mb-xs" style="color: #ffffff">
@@ -204,7 +204,7 @@
         </div>
         <div class="col-6 col-sm-12 col-md-4 q-mt-md flex column items-center text-center q-ma-sm">
           <q-card class="bg-primary" flat bordered style="max-width: 640px">
-            <q-img src="/src/img/2.png" style="height: 350px" />
+            <q-img src="/img/2.png" style="height: 350px" />
 
             <q-card-section style="flex-grow: 1; overflow-y: auto">
               <div class="text-h5 q-mt-sm q-mb-xs" style="color: #ffffff">
@@ -269,7 +269,7 @@
         <div class="col-4 col-sm-12 col-md-4">
           <div class="q-pa-md" style="width: 300px">
             <q-card class="my-card">
-              <q-parallax src="/src/img/cafe.png" :height="350" />
+              <q-parallax src="/img/cafe.png" :height="350" />
               <q-card-section>
                 <div class="text-h6">Animaciones</div>
                 <div class="text-subtitle2"></div>
@@ -280,7 +280,7 @@
         <div class="col-4 col-sm-12 col-md-4">
           <div class="q-pa-md" style="width: 300px">
             <q-card class="my-card">
-              <q-parallax src="/src/img/infoPC.png" :height="350" />
+              <q-parallax src="/img/infoPC.png" :height="350" />
               <q-card-section>
                 <q-btn flat class="text-h6 text-lowercase cursor-pointer" to="/PagCarteles">
                   Infografías
@@ -292,9 +292,9 @@
         <div class="col-4 col-sm-12 col-md-4" style="width: 300px">
           <div class="q-pa-md">
             <q-card class="my-card">
-              <q-parallax src="/src/img/tc.png" :height="350" />
+              <q-parallax src="/img/tc.png" :height="350" />
               <q-card-section>
-                 <q-btn flat class="text-h6 text-lowercase cursor-pointer" to="/PagArticulos">
+                <q-btn flat class="text-h6 text-lowercase cursor-pointer" to="/PagArticulos">
                   Textos científicos
                 </q-btn>
               </q-card-section>
@@ -310,7 +310,7 @@
       </div>
       <div class="row items-center justify-center">
         <div class="col-6 col-sm-12 col-md-4 q-mt-md flex column items-center text-center q-pa-lg">
-          <q-img src="/src/img/celular.png" style="height: 350px; width: 470px" class="col-6" />
+          <q-img src="/img/celular.png" style="height: 350px; width: 470px" class="col-6" />
         </div>
         <div class="col-6 col-sm-12 col-md-4 q-mt-md flex column items-center text-center">
           <p class="text-left">

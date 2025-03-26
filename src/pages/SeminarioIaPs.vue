@@ -1,7 +1,7 @@
 <template>
   <q-page class="q-pa-none">
     <div class="contenedor">
-      <q-img src="/src/img/pruebaIA.png" class="full-width full-height">
+      <q-img src="/img/pruebaIA.png" class="full-width full-height">
         <div class="absolute-full overlay"></div>
         <div class="absolute-full flex flex-center overlay-text">
           <h1 class="q-mx-sm overlay-text">
@@ -170,7 +170,6 @@
                   <p><span style="color: #ec7711">Adscripción: </span> {{ video.adscripcion }}</p>
                   <p><span style="color: #ec7711">Horario y Lugar: </span> {{ video.hyl }}</p>
 
-
                   <a
                     v-if="video.url && video.url.trim() !== ''"
                     @click="abrirPdf(video.url)"
@@ -178,7 +177,6 @@
                   >
                     Ver presentación
                   </a>
-
 
                   <p class="puntos"></p>
                   <p><span style="color: #ec7711">Contacto: </span> {{ video.contacto }}</p>

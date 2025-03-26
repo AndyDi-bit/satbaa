@@ -1,10 +1,10 @@
 <template>
   <q-page class="q-pa-none">
     <div class="contenedor">
-      <q-img src="/src/img/prueba6.png" class="full-width full-height">
+      <q-img src="/img/prueba6.png" class="full-width full-height">
         <div class="absolute-full overlay"></div>
         <div class="absolute-full flex flex-center overlay-text">
-          <q-img src="/src/img/SATBAA-Dark-Icon.png" style="height: 120px; width: 120px"></q-img>
+          <q-img src="/img/SATBAA-Dark-Icon.png" style="height: 120px; width: 120px"></q-img>
           <h1 class="q-mx-sm overlay-text">Conferencias</h1>
         </div>
       </q-img>
@@ -167,14 +167,16 @@ const pdfsSRPC = ref([
   },
   {
     url: '/pdfs/43-EDUPT-ChildreFacingPonenciaProbatorio.pdf',
-    titulo: 'Children facing earthquakes in Mexico City: an educational strategy to promote prevention awareness',
+    titulo:
+      'Children facing earthquakes in Mexico City: an educational strategy to promote prevention awareness',
     autor: ' Daniela Pérez, Wulfrano Arturo Luna-Ramírez, Sara Margarita',
     descripcion:
       'Es fundamental contar con sistemas de informacion que permitan gestionar el riesgo que estos fenómenos representan, a la vez que mantienen a la población informada y preparada.',
   },
   {
     url: '/pdfs/diaposSATBAA-SID14.pdf',
-    titulo: 'Diseño ergonómico de sistemas de seguridad y alerta temprana De riesgo personal en caso de sismos.',
+    titulo:
+      'Diseño ergonómico de sistemas de seguridad y alerta temprana De riesgo personal en caso de sismos.',
     autor: 'Wulfrano Arturo Luna-Ramírez',
     descripcion:
       'Es fundamental contar con sistemas de informacion que permitan gestionar el riesgo que estos fenómenos representan, a la vez que mantienen a la población informada y preparada.',
@@ -186,7 +188,6 @@ const pdfsSRPC = ref([
     descripcion:
       'Es fundamental contar con sistemas de informacion que permitan gestionar el riesgo que estos fenómenos representan, a la vez que mantienen a la población informada y preparada.',
   },
-
 ])
 </script>
 

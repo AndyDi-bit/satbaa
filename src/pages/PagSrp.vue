@@ -1,16 +1,16 @@
 <template>
   <q-page class="q-pa-none">
     <div class="contenedor">
-      <q-img src="/src/img/srp.jpg" class="full-width full-height">
+      <q-img src="/img/srp.jpg" class="full-width full-height">
         <div class="absolute-full overlay"></div>
         <div class="absolute-full flex flex-center overlay-text">
-          <q-img src="/src/img/SRP-Light-Icon.png" style="height: 120px; width: 120px"></q-img>
+          <q-img src="/img/SRP-Light-Icon.png" style="height: 120px; width: 120px"></q-img>
           <h1 class="q-mx-sm overlay-text">Semáforo de Riesgo Personal</h1>
         </div>
       </q-img>
     </div>
     <div class="row">
-      <q-img src="/src/img/srp2.jpg" style="height: 540px; width: 770px" class="col" />
+      <q-img src="/img/srp2.jpg" style="height: 540px; width: 770px" class="col" />
       <div class="col-6 q-pa-lg q-mt-xl q-ml-xl col-sm-6">
         <p>
           El Semáforo de Riesgo Personal, permite calcular el índice de riesgo (IR) que presenta una
@@ -31,7 +31,7 @@
       <div class="">
         <p class="text-bold text-h3 q-mt-lg" style="color: #ec7711">Diagrama de Bloques</p>
         <q-img
-          src="/src/img/bloquesSRP.png"
+          src="/img/bloquesSRP.png"
           style="height: 540px; width: 770px"
           class="q-mt-lg q-mb-xl"
         />
@@ -98,40 +98,40 @@
       >
         <q-carousel-slide name="style" class="row no-wrap justify-center">
           <q-img
-            src="/src/img/infografias/CalculoIRP_UsuarioB.jpg"
+            src="/img/infografias/CalculoIRP_UsuarioB.jpg"
             class="thumbnail q-mx-xl"
             @click="abrirInfo('/src/img/infografias/CalculoIRP_UsuarioB.jpg')"
           />
           <q-img
-            src="/src/img/infografias/RecomendacionesEnUnSismoPlantaBaja_UsuarioA.jpg"
+            src="/img/infografias/RecomendacionesEnUnSismoPlantaBaja_UsuarioA.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo('/src/img/infografias/RecomendacionesEnUnSismoPlantaBaja_UsuarioA.jpg')
             "
           />
           <q-img
-            src="/src/img/infografias/PlanDeSeguridadAnteSismos_UsuarioA.jpg"
+            src="/img/infografias/PlanDeSeguridadAnteSismos_UsuarioA.jpg"
             class="thumbnail q-mx-xl"
             @click="abrirInfo('/src/img/infografias/PlanDeSeguridadAnteSismos_UsuarioA.jpg')"
           />
         </q-carousel-slide>
         <q-carousel-slide name="stylee" class="row no-wrap justify-center">
           <q-img
-            src="/src/img/infografias/RecomendacionesEnUnSismoPisos4al8_UsuarioA.jpg"
+            src="/img/infografias/RecomendacionesEnUnSismoPisos4al8_UsuarioA.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo('/src/img/infografias/RecomendacionesEnUnSismoPisos4al8_UsuarioA.jpg')
             "
           />
           <q-img
-            src="/src/img/infografias/RecomendacionesEnUnSismoPisos4al8_UsuarioB.jpg"
+            src="/img/infografias/RecomendacionesEnUnSismoPisos4al8_UsuarioB.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo('/src/img/infografias/RecomendacionesEnUnSismoPisos4al8_UsuarioB.jpg')
             "
           />
           <q-img
-            src="/src/img/infografias/RecomendacionesEnUnSismoPisosE2yE3_UsuarioB.jpg"
+            src="/img/infografias/RecomendacionesEnUnSismoPisosE2yE3_UsuarioB.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo('/src/img/infografias/RecomendacionesEnUnSismoPisosE2yE3_UsuarioB.jpg')
@@ -140,19 +140,19 @@
         </q-carousel-slide>
         <q-carousel-slide name="styleee" class="row no-wrap justify-center">
           <q-img
-            src="/src/img/infografias/RecomendacionesEnUnSismoPlantaBaja_UsuarioB.jpg"
+            src="/img/infografias/RecomendacionesEnUnSismoPlantaBaja_UsuarioB.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo('/src/img/infografias/RecomendacionesEnUnSismoPlantaBaja_UsuarioB.jpg')
             "
           />
           <q-img
-            src="/src/img/infografias/RutasEvacuacionUAMc_UsuarioAB.jpg"
+            src="/img/infografias/RutasEvacuacionUAMc_UsuarioAB.jpg"
             class="thumbnail q-mx-xl"
             @click="abrirInfo('/src/img/infografias/RutasEvacuacionUAMc_UsuarioAB.jpg')"
           />
           <q-img
-            src="/src/img/infografias/SemaforoMovilDeRiesgoPersonal_UsuarioA.jpg"
+            src="/img/infografias/SemaforoMovilDeRiesgoPersonal_UsuarioA.jpg"
             class="thumbnail q-mx-xl"
             @click="abrirInfo('/src/img/infografias/SemaforoMovilDeRiesgoPersonal_UsuarioA.jpg')"
           />
@@ -162,7 +162,14 @@
       <q-dialog v-model="abrirlightBox" full-width full-height>
         <q-card class="lightbox-card" @wheel="zoomImgn">
           <!-- Botón de Cerrar -->
-          <q-btn flat dense round :icon="matIcons.matClose" class="botonCerrar" @click="abrirlightBox = false" />
+          <q-btn
+            flat
+            dense
+            round
+            :icon="matIcons.matClose"
+            class="botonCerrar"
+            @click="abrirlightBox = false"
+          />
 
           <q-img
             :src="imgLightBox"

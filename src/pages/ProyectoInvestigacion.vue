@@ -1,7 +1,7 @@
 <template>
   <q-page class="q-pa-none">
     <div class="contenedor">
-      <q-img src="/src/img/pi.png" class="imagen-ajustada" fit="cover full-width full-height">
+      <q-img src="/img/pi.png" class="imagen-ajustada" fit="cover full-width full-height">
         <div class="absolute-full overlay"></div>
         <div class="absolute-full flex flex-center overlay-text">
           <h1 class="q-mx-md overlay-text">Proyecto de investigación</h1>
@@ -9,7 +9,7 @@
       </q-img>
     </div>
     <div class="row">
-      <q-img src="/src/img/bomberos.jpg" style="height: 540px; width: 770px" class="col" />
+      <q-img src="/img/bomberos.jpg" style="height: 540px; width: 770px" class="col" />
       <div class="col-6 q-pa-lg q-mt-xl q-ml-xl col-sm-6">
         <p>
           Los desastres configuran una gama de riesgo diferenciada para personas y comunidades según
@@ -104,7 +104,7 @@
       <div class="">
         <p class="text-bold text-h3 q-mt-lg" style="color: #61c2d7">Diagrama de Bloques</p>
         <q-img
-          src="/src/img/Proyecto_Diagrama.Bloques.jpg"
+          src="/img/Proyecto_Diagrama.Bloques.jpg"
           style="height: 640px; width: 670px"
           class="q-mt-lg q-mb-xl"
         />
@@ -166,9 +166,9 @@ const colaboradores = [
   },
   {
     id: 11,
-    descripcion: 'Evaluar el sistema para definir la eficiencia y satisfacción del usuario durante la interacción del producto.',
+    descripcion:
+      'Evaluar el sistema para definir la eficiencia y satisfacción del usuario durante la interacción del producto.',
   },
-
 ]
 </script>
 

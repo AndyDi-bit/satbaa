@@ -7,7 +7,7 @@
 
         <q-btn flat clickable @click="inicio" class="q-ma-lg">
           <q-img
-            src="/src/img/SATBAA-Light-Horizontal-Primary.png"
+            src="/img/SATBAA-Light-Horizontal-Primary.png"
             style="height: 40px; width: 250px"
           />
         </q-btn>

@@ -1,7 +1,7 @@
 <template>
   <q-page class="q-pa-none">
     <div class="contenedor">
-      <q-img src="/src/img/colaboradores.jpg" class="full-width full-height">
+      <q-img src="/img/colaboradores.jpg" class="full-width full-height">
         <div class="absolute-full overlay"></div>
         <div class="absolute-full flex flex-center overlay-text">
           <h1 class="q-mx-md overlay-text">Equipo de colaboradores</h1>
@@ -394,7 +394,7 @@ const colaboradoresSS = [
 <style scoped>
 .contenedor {
   width: 100%;
-  height: 400px; 
+  height: 400px;
 }
 
 .overlay {

@@ -1,16 +1,16 @@
 <template>
   <q-page class="q-pa-none">
     <div class="contenedor">
-      <q-img src="/src/img/src.jpg" class="full-width full-height">
+      <q-img src="/img/src.jpg" class="full-width full-height">
         <div class="absolute-full overlay"></div>
         <div class="absolute-full flex flex-center overlay-text">
-          <q-img src="/src/img/SCC-Light-Icon.png" style="height: 120px; width: 120px"></q-img>
+          <q-img src="/img/SCC-Light-Icon.png" style="height: 120px; width: 120px"></q-img>
           <h1 class="q-mx-sm overlay-text">Semáforo de la Roya del Café</h1>
         </div>
       </q-img>
     </div>
     <div class="row">
-      <q-img src="/src/img/src2.jpg" style="height: 540px; width: 770px" class="col" />
+      <q-img src="/img/src2.jpg" style="height: 540px; width: 770px" class="col" />
       <div class="col-6 q-pa-lg q-mt-xl q-ml-xl col-sm-6">
         <p>
           La planta del café puede ser dañada por diversas plagas y enfermedades, las cualaes se ven
@@ -37,7 +37,7 @@
       <div class="">
         <p class="text-bold text-h3 q-mt-lg" style="color: #63a030">Diagrama de Bloques</p>
         <q-img
-          src="/src/img/bloquesSRC.png"
+          src="/img/bloquesSRC.png"
           style="height: 540px; width: 770px"
           class="q-mt-lg q-mb-xl"
         />
@@ -104,12 +104,12 @@
       >
         <q-carousel-slide name="style" class="row no-wrap justify-center">
           <q-img
-            src="/src/img/infografias/infografiasSRC/CalculoIRP_UsuarioB.jpg"
+            src="/img/infografias/infografiasSRC/CalculoIRP_UsuarioB.jpg"
             class="thumbnail q-mx-xl"
             @click="abrirInfo('/src/img/infografias/infografiasSRC/CalculoIRP_UsuarioB.jpg')"
           />
           <q-img
-            src="/src/img/infografias/infografiasSRC/DesarrolloDelFrutoDelCafe_UsuarioA.jpg"
+            src="/img/infografias/infografiasSRC/DesarrolloDelFrutoDelCafe_UsuarioA.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo(
@@ -118,7 +118,7 @@
             "
           />
           <q-img
-            src="/src/img/infografias/infografiasSRC/EtapasFenologicasDelFrutoDelCafe_UsuarioB.jpg"
+            src="/img/infografias/infografiasSRC/EtapasFenologicasDelFrutoDelCafe_UsuarioB.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo(
@@ -129,7 +129,7 @@
         </q-carousel-slide>
         <q-carousel-slide name="stylee" class="row no-wrap justify-center">
           <q-img
-            src="/src/img/infografias/infografiasSRC/DesarrolloDelFrutoDelCafe_UsuarioA.jpg"
+            src="/img/infografias/infografiasSRC/DesarrolloDelFrutoDelCafe_UsuarioA.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo(
@@ -138,14 +138,14 @@
             "
           />
           <q-img
-            src="/src/img/infografias/infografiasSRC/GestacionDeLaRoyaDelCafe_UsuarioA.jpg"
+            src="/img/infografias/infografiasSRC/GestacionDeLaRoyaDelCafe_UsuarioA.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo('/src/img/infografias/infografiasSRC/GestacionDeLaRoyaDelCafe_UsuarioA.jpg')
             "
           />
           <q-img
-            src="/src/img/infografias/infografiasSRC/LaboratorioDigitalDeCafeticultura_UsuarioAB.jpg"
+            src="/img/infografias/infografiasSRC/LaboratorioDigitalDeCafeticultura_UsuarioAB.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo(
@@ -156,7 +156,7 @@
         </q-carousel-slide>
         <q-carousel-slide name="styleee" class="row no-wrap justify-center">
           <q-img
-            src="/src/img/infografias/infografiasSRC/SemaforoDeLaRoyaDelCafe_UsuarioA.jpg"
+            src="/img/infografias/infografiasSRC/SemaforoDeLaRoyaDelCafe_UsuarioA.jpg"
             class="thumbnail q-mx-xl"
             @click="
               abrirInfo('/src/img/infografias/infografiasSRC/SemaforoDeLaRoyaDelCafe_UsuarioA.jpg')
@@ -242,7 +242,6 @@ const animaciones = ref([
   {
     src: 'https://player.vimeo.com/video/1064839650',
   },
-
 ])
 </script>
 
