@@ -40,6 +40,14 @@ const routes = [
         path: '/SeminarioIAyPS',
         component: () => import('src/pages/SeminarioIaPs.vue'),
       },
+      {
+        path: '/PrimerSeminarioIAyPS',
+        component: () => import('src/pages/PrimerSeminarioIaPs.vue'),
+      },
+      {
+        path: '/SegundoSeminarioIAyPS',
+        component: () => import('src/pages/SegundoSeminarioIaPs.vue'),
+      },
     ],
   },
 
